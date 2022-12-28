@@ -1,0 +1,26 @@
+.sub-ul{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+  
+
+}
+.sub-ul li{ display: flex;
+  flex-wrap: wrap;
+  
+  padding: 1px 10px;
+  
+  list-style: none;
+ 
+}
+.sub-ul li:hover{
+  
+
+  
+}
+.cat a{
+  display: flex;
+  flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,36 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(41, 41, 73);
+    margin-bottom: 10px;
+}
+.head input{
+    border:2px solid orange;
+
+}
+.logo{
+    font-weight: 900;
+    border-bottom: 5px solid orange;
+    color: white;
+   
+}
+
+.search-btn{
+    cursor: pointer;
+  background-color: orange;
+  outline: 2px solid orange;
+}
+.cart{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.cart span{
+    background-color: orange;
+    border-radius:10px;
+    padding: 5px;
+    
+}

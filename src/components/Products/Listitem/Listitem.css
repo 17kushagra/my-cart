@@ -1,0 +1,84 @@
+.cards{
+    width:190px;
+    display: flex;
+    height: 290px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+     background-color: rgb(41, 41, 73);
+margin: 10px;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid grey;
+}
+.modal-content{
+    width: 700px;
+}
+.modal-dialog{
+    width: 700px;
+    max-width: 700px;
+}
+.modal-header .btn-close{
+    margin: 0px;
+}
+.modal-cont{
+        display: flex;
+      
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+}
+.cards img{
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+width: 180px;
+margin-top: 5px;
+color: rgb(202, 202, 202);
+}
+.card button{
+    width: 180px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+.btn{
+    padding: 5px;
+    background-color: orange;
+}
+.btn:hover{
+background-color:rgb(255, 255, 255);
+cursor: pointer;
+}
+h5{color: white;
+    padding: 2px;
+    margin: 5px;
+}
+.count{
+    color: white;
+   height: 36px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count button{
+  
+    width: 30px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.title{
+font-size: small;
+margin: 10px;
+}
